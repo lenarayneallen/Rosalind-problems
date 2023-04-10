@@ -1,7 +1,0 @@
-#Given: A DNA string t having length at most 1000 nt.
-#Return: The transcribed RNA string of t.
-
-DNA = open ('RosalindRNA.txt')
-DNA_string = DNA.read()
-RNA = DNA_string.replace('T','U')
-print(RNA)
