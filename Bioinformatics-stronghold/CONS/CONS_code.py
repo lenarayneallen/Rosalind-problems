@@ -5,7 +5,7 @@ def parse_file(input_file):
 	sequence_id = None
 	sequence = []
 
-	for line in f:
+	for line in input_file:
 		line = line.strip()
 
 		if line.startswith(">"):
@@ -20,7 +20,7 @@ def parse_file(input_file):
 
 input_file = 'consensusex.txt'
 f = open(input_file)
-parsedseq = parse_file(input_file)
+parsedseq = parse_file(f)
 
 #importing numpy and pandas
 import numpy as np 
