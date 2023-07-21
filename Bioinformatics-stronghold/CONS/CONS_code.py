@@ -18,8 +18,8 @@ def parse_file(input_file):
 	fasta_dict[sequence_id] = ''.join(sequence)
 	return fasta_dict
 
-input_file = 'consensusex.txt'
-f = open(input_file)
+file = 'consensusex.txt'
+f = open(file)
 parsedseq = parse_file(f)
 
 #importing numpy and pandas
