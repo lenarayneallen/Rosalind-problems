@@ -20,7 +20,7 @@ def parse_file(input_file):
 
 input_file = 'consensusex.txt'
 f = open(input_file)
-parsedseq = parse_file(input_file)
+parsedseq = parse_file(f)
 
 #importing numpy and pandas
 import numpy as np 
