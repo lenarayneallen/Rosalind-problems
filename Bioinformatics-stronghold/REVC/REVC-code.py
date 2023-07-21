@@ -1,12 +1,12 @@
 
-
+#opening file
 DNA = open('input.txt')
 DNA_string = DNA.read()
 
 #reversing DNA string
 rev_DNA_string = DNA_string[::-1]
 
-
+#finding reverse complement using a dictionary 
 def reverse_complement(sequence):
 	complement_dictionary = {"A":"T", "T":"A", "G":"C", "C":"G"}
 	complement_string = ""
