@@ -1,6 +1,6 @@
 #open file and create list of integers corresponding to 
 #number of couples of each genotype pairing 
-s = open('iev.txt', 'r')
+s = open('IEV-input.txt', 'r')
 p = s.read()
 integers = p.split()
 
