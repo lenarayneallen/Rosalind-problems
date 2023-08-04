@@ -35,7 +35,7 @@ def parse_file(input_file):
 
 #open file and create dictionary of fasta labels
 #and sequences
-file = 'splice3.txt'
+file = 'SPLC-input.txt'
 f = open(file)
 parsedseqs = parse_file(f)
 
