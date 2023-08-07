@@ -13,6 +13,6 @@ def reverse_complement(sequence):
 	for base in sequence:
 		if base in complement_dictionary:
 			complement_string += complement_dictionary[base]
-	print (complement_string)
+	return (complement_string)
 
 reverse_complement(rev_DNA_string)
