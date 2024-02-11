@@ -1,7 +1,7 @@
 #Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
 #Return: The ID of the string having the highest GC-content, followed by the GC-content of that string.
 
-input_file = 'input.txt'
+input_file = 'GC-input.txt'
 f = open(input_file)
 parsedseq = parse_file(input_file)
 
