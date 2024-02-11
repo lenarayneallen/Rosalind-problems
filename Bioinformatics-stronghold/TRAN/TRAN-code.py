@@ -1,3 +1,6 @@
+#Given: Two DNA strings s1 and s2 of equal length (at most 1 kbp).
+#Return: The transition/transversion ratio R(s1,s2)
+
 #transitions and transversion
 
 #function to generate a dictionary of fasta labels
