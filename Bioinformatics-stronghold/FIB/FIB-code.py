@@ -1,5 +1,5 @@
 
-DNA = open('input.txt')
+DNA = open('FIB-input.txt')
 f = DNA.read()
 
 #splitting the two values in the file into a list of two strings
