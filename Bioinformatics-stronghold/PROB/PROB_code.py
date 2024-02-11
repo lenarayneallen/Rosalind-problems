@@ -1,3 +1,9 @@
+#Given: A DNA string s of length at most 100 bp and an array A containing at most 20 numbers between 0 and 1.
+
+#Return: An array B having the same length as A in which B[k] represents the common logarithm of the probability that a random string constructed with the GC-content found in A[k]
+#will match s exactly.
+
+
 import math
 #read in file
 s = open('PROB_input.txt', 'r')
