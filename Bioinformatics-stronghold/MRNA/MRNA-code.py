@@ -15,7 +15,7 @@ for index, element in enumerate(splitcodontable):
 			continue
         
 # open and read amino acid sequence
-protein_string = open('mrnaaa.txt')
+protein_string = open('MRNA-input.txt')
 protein_string = protein_string.read()
 
 #generate a list that contains lists of possible codons
