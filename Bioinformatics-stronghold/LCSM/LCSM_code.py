@@ -19,7 +19,7 @@ def parse_file(input_file):
 	fasta_dict[sequence_id] = ''.join(sequence)
 	return fasta_dict
 
-input_file = 'commonmotif.txt'
+input_file = 'LCSM-input.txt'
 f = open(input_file)
 parsedseq = parse_file(f)
 
