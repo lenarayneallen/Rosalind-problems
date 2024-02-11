@@ -1,6 +1,6 @@
 
 #opening file
-DNA = open('input.txt')
+DNA = open('REVC-input.txt')
 DNA_string = DNA.read()
 
 #reversing DNA string
@@ -15,4 +15,4 @@ def reverse_complement(sequence):
 			complement_string += complement_dictionary[base]
 	return (complement_string)
 
-reverse_complement(rev_DNA_string)
+print(reverse_complement(rev_DNA_string))
