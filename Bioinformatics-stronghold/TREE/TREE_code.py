@@ -1,4 +1,4 @@
-s = open('tree5.txt', 'r')
+s = open('TREE_input.txt', 'r')
 p = s.read()
 psplit = p.split()
 
