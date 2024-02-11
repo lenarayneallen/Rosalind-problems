@@ -18,7 +18,7 @@ def parse_file(input_file):
 	fasta_dict[sequence_id] = ''.join(sequence)
 	return fasta_dict
 
-file = 'consensusex.txt'
+file = 'CONS-input.txt'
 f = open(file)
 parsedseq = parse_file(f)
 
