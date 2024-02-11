@@ -1,3 +1,7 @@
+#Given: A positive integer n (n≤1000) and an adjacency list corresponding to a graph on n nodes that contains no cycles.
+#Return: The minimum number of edges that can be added to the graph to produce a tree.
+
+
 s = open('TREE_input.txt', 'r')
 p = s.read()
 psplit = p.split()
