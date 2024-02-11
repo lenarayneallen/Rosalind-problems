@@ -13,7 +13,7 @@ for index, element in enumerate(splitmasstable):
 		else:
 			continue
 #open file conatining protein string        
-s = open('prtm.txt', 'r')
+s = open('PTRM-input.txt', 'r')
 p = s.read().strip()
 
 #create a list containing each amino acid's 
