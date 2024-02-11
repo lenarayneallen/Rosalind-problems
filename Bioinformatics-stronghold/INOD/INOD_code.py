@@ -1,4 +1,4 @@
-s = open('rosalind_inod.txt', 'r')
+s = open('INOD_input', 'r')
 p = s.read()
 n = int(p)
 
