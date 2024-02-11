@@ -1,3 +1,6 @@
+#Given: A DNA string s
+ of length at most 1000 bp.
+#Return: The reverse complement sc of s
 
 #opening file
 DNA = open('REVC-input.txt')
