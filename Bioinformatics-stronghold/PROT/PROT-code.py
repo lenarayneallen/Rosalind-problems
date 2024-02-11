@@ -2,7 +2,7 @@
 #return: the protein string encoded by s.
 
 #open file of RNA sequence
-input_file = 'input.txt'
+input_file = 'PROT-input.txt'
 s = open(input_file, "r")
 s = s.read()
 
