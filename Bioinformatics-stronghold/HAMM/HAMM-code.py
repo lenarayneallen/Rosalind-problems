@@ -2,7 +2,7 @@
 #Return: The Hamming distance dH(s,t)
 
 #opening file and separating by spaces into list
-DNA = open('githubhamm.txt')
+DNA = open('HAMM-input.txt')
 f = DNA.read()
 twostrings = f.split()
 
