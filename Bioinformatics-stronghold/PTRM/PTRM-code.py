@@ -1,3 +1,7 @@
+#Given: A protein string P of length at most 1000 aa.
+#Return: The total weight of P. Consult the monoisotopic mass table.
+
+
 #import monoisotopic mass table
 f = open('masstable.txt', 'r')
 masstable = f.read()
