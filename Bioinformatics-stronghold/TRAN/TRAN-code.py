@@ -23,7 +23,7 @@ def parse_file(input_file):
 
 #open file and create dictionary of fasta labels
 #and sequences
-file = 'rosalind_tran.txt'
+file = 'TRAN-input.txt'
 f = open(file)
 parsedseqs = parse_file(f)
 
