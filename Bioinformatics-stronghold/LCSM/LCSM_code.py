@@ -32,7 +32,7 @@ sequences= []
 for key, value in parsedseq.items():
 	sequences.append(value)
 
-#finding sortest sequence, its index, and its length  
+#finding shortest sequence, its index, and its length  
 shortest = min(sequences, key = len)
 shortest_index = sequences.index(shortest)
 shortest_length = len(shortest)
